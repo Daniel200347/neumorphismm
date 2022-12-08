@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: rgba(185, 169, 160, 0.44);
+}
+
+.title {
+    text-align: center;
+}
+
+.title-main {
+    font-weight: 700;
+}
+
+.title-second {
+    font-weight: 400;
+    margin: 5px 0 0;
+    font-size: 21px;
+}
+
+.container {
+    width: 970px;
+    height: 524px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.soft-element-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    box-shadow: 49px 49px 20px #45556c,
+    -49px -49px 20px #7591b8;
+}
+
+.configuration {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    text-align: left;
+    height: 464px;
+    width: 364px;
+    padding: 20px 30px 20px 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+
+.configuration-title-first {
+    margin-right: 15px;
+}
+
+.configuration-color {
+    background: none;
+    border: 3px solid #ffffff;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.configuration-color::-webkit-color-swatch-wrapper {
+    display: none;
+}
+
+.configuration-title-second {
+    margin-right: 10px;
+}
+
+.configuration-value {
+    color: black;
+}
+
+.row-text {
+    margin-right: 10px;
+}
+
+input[type=range] {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1;
+    height: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    background-color: #16a085;
+    border-radius: 1em;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    background-color: #16a085;
+    border-radius: 1em;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+input[type=range]::-ms-thumb {
+    width: 15px;
+    height: 15px;
+    margin-top: 0;
+    background-color: #16a085;
+    border-radius: 1em;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+input[type=range]:hover::-webkit-slider-thumb {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+input[type=range]:hover::-moz-range-thumb {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+input[type=range]:hover::-ms-thumb {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+input[type=range]:active::-webkit-slider-thumb {
+    border-color: #ffffff;
+}
+
+input[type=range]:active::-moz-range-thumb {
+    border-color: #ffffff;
+}
+
+input[type=range]:active::-ms-thumb {
+    border-color: #ffffff;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    cursor: pointer;
+    height: 1em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    cursor: pointer;
+    height: 1em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
+
+input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+
+.output-wrapper {
+    width: 100px;
+    height: 464px;
+}
+
+.output-all {
+    margin-top: 18%;
+    width: 44px;
+    height: 24px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.76);
+}
+
+.output-size {
+    margin-top: 82px;
+    display: none;
+
+}
+
+.output-radius {
+    display: none;
+}
+
+.output-distance {
+    display: none;
+}
+
+.output-intensity
+
+/*.oil {*/
+/*    display: none;*/
+/*}*/
