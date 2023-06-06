@@ -14,12 +14,13 @@ inputRadius.addEventListener('input', (event) => {
     divisionExample.style.borderRadius = `${value}px`;
 })
 
+
 function inputSizeHandler() {
     const value = inputSize.value
     divisionExample.style.width = `${value}px`;
     divisionExample.style.height = `${value}px`;
     inputRadius.setAttribute('max', Math.round(`${value / 2}`))
-    inputDistanceValue.value = `${value / 10}`;
+    inputDistanceValue.value = `${value / 20}`;
 }
 
 inputSizeHandler();

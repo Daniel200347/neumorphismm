@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgba(185, 169, 160, 0.44);
+    background-color: #5c5874;
 }
 
 .title {
@@ -55,6 +55,7 @@ body {
 }
 
 .configuration {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
